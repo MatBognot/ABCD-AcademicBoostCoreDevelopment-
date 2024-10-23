@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project ABCD - Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Project ABCD: Learning Platform</h1>
+    </header>
+    
+    <main>
+        <section id="summarization">
+            <h2>Summarization Tool</h2>
+            <textarea id="inputText" rows="10" placeholder="Paste your text here..."></textarea>
+            <button id="summarizeButton">Summarize</button>
+            <h3>Summary:</h3>
+            <div id="summaryOutput"></div>
+        </section>
+        
+        <section id="quiz">
+            <h2>Game and Quiz Modules</h2>
+            <button id="startQuizButton">Start Quiz</button>
+            <div id="quizOutput" style="display:none;"></div>
+        </section>
+        
+        <section id="reflection">
+            <h2>Reflective Learning Evaluation</h2>
+            <textarea id="reflectionInput" rows="5" placeholder="Record your thoughts here..."></textarea>
+            <button id="saveReflectionButton">Save Reflection</button>
+            <div id="reflectionOutput"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Project ABCD. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
